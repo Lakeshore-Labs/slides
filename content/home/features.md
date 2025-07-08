@@ -9,25 +9,35 @@ How We Help Your Business Grow
 
 ---
 
-### AI-Powered Social Media Management
-Stop guessing and start engaging. We use AI to analyze your audience, create content that resonates, and schedule posts for maximum impact.
+### 🎯 AI-Powered Social Media Management
+Get professional social media management with AI-powered content creation - consistent, engaging posts that build your brand without the daily hassle.
+
+**Duration:** Ongoing service
 
 ---
 
-### Business Process Automation
-Tired of tedious, repetitive tasks? We identify bottlenecks in your workflow and build automated solutions that save you time and money.
+### ⚡ Business Process Automation
+Automate your repetitive business tasks and connect your apps so they work together seamlessly - more time for what matters.
+
+**Duration:** 2-4 weeks
 
 ---
 
-### Custom Internal Apps
-Give your team the tools they need to succeed. We develop intuitive, custom applications that streamline your operations and boost productivity.
+### 📱 Custom Internal Apps
+Get custom mobile and web apps built specifically for your team's needs - no more forcing your business into generic solutions.
+
+**Duration:** 4-8 weeks
 
 ---
 
-### Personal AI Coaching
-Unlock your full potential. Our one-on-one coaching sessions will teach you how to leverage AI in your daily life and career.
+### 🎓 Personal AI Coaching
+Get personalized, one-on-one coaching to integrate AI into your business operations without the overwhelm or technical complexity.
+
+**Duration:** 3-6 months
 
 ---
 
-### Professional Portfolio Development
-Showcase your skills and experience in a stunning, modern portfolio. We work with you to create a professional online presence that gets you noticed.
+### 💼 Professional Portfolio Development
+Get a stunning personal website that showcases your expertise and opens doors to new opportunities - no technical skills required.
+
+**Duration:** 2-3 weeks

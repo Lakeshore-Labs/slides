@@ -1,0 +1,24 @@
+{{ if .Site.IsMultiLingual }}
+<div class="language-selector" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: rgba(0,0,0,0.7); padding: 10px; border-radius: 8px; display: flex; gap: 10px; align-items: center;">
+  <span style="color: white; font-size: 14px; margin-right: 10px;">🌐</span>
+  {{ range .Site.Languages }}
+    {{ if eq . $.Site.Language }}
+      <span style="color: #ffd700; font-weight: bold; font-size: 14px; padding: 5px 10px; background: rgba(255,215,0,0.2); border-radius: 4px;">
+        {{ .LanguageName }}
+      </span>
+    {{ else }}
+      {{ $url := "" }}
+      {{ if eq .Lang "en" }}
+        {{ $url = $.Site.BaseURL }}{{ $.File.Dir }}
+      {{ else }}
+        {{ $url = printf "%s%s/%s" $.Site.BaseURL .Lang $.File.Dir }}
+      {{ end }}
+      <a href="{{ $url }}" style="color: white; text-decoration: none; font-size: 14px; padding: 5px 10px; border-radius: 4px; transition: background 0.3s ease; background: rgba(255,255,255,0.1);" 
+         onmouseover="this.style.background='rgba(255,255,255,0.2)'" 
+         onmouseout="this.style.background='rgba(255,255,255,0.1)'">
+        {{ .LanguageName }}
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

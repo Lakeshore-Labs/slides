@@ -43,6 +43,8 @@ transition = "slide"
 
 {{< slide template="hero" >}}
 
+{{< partial "language-selector" . >}}
+
 # <span style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Cafe Content Creation Pilot</span>
 ## <span style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">7-Day Pilot + 30-Day Growth Plan</span>
 

@@ -1,5 +1,5 @@
 baseURL = "https://example.com/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Company Presentations"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
@@ -9,6 +9,22 @@ theme = "reveal-hugo"
 # uncomment for browsing at file:///
 # relativeURLs = true
 # uglyURLs = true
+
+# Language configuration
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Company Presentations"
+    weight = 1
+    
+  [languages.vi]
+    contentDir = "content"
+    languageCode = "vi-vn"
+    languageName = "Tiếng Việt"
+    title = "Bài Thuyết Trình Công Ty"
+    weight = 2
 
 [params]
 author = "Company Name"

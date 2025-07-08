@@ -3,88 +3,138 @@ title = "Go Genkit: Building AI-Powered Applications"
 description = "A comprehensive guide to Google's Go Genkit framework for developing production-ready AI applications"
 outputs = ["Reveal"]
 [reveal_hugo]
-custom_theme = "reveal-hugo/themes/robot-lung.css"
-margin = 0.2
-highlight_theme = "color-brewer"
+custom_theme = "reveal-hugo/themes/genkit-modern.css"
+margin = 0.1
+highlight_theme = "github-dark"
 transition = "slide"
 transition_speed = "fast"
-[reveal_hugo.templates.hotpink]
-class = "hotpink"
-background = "#FF4081"
+background_transition = "fade"
+controls = true
+progress = true
+center = true
+touch = true
+fragments = true
+auto_slide = 0
+[reveal_hugo.templates.google_blue]
+class = "google-blue"
+background = "#4285f4"
+[reveal_hugo.templates.google_green]
+class = "google-green"
+background = "#34a853"
 +++
 
-# 🚀
+# 🚀 {.r-fit-text}
 
-# Go Genkit
+# Go Genkit {data-auto-animate="true"}
 
 **Building AI-Powered Applications with Google's Framework**
 
+{{% fragment class="fade-up" %}}
 *Production-ready AI development made simple*
+{{% /fragment %}}
+
+{{% note %}}
+Welcome everyone! Today we're diving into Go Genkit, Google's powerful framework for building AI applications. 
+- Ask: Who has built AI applications before?
+- Mention this is cutting-edge tech from the Firebase team
+- Set expectation for hands-on examples
+{{% /note %}}
 
 ---
 
-## What is Go Genkit?
+## What is Go Genkit? {data-background-gradient="linear-gradient(45deg, #4285f4 0%, #34a853 100%)" data-transition="fade"}
 
-{{% fragment %}}
-### Google's Open-Source Framework
+<div class="r-vstack">
+
+{{% fragment class="fade-in-then-semi-out" %}}
+### 🏗️ Google's Open-Source Framework
 Built by the Firebase team for creating AI-powered applications
 {{% /fragment %}}
 
-{{% fragment %}}
-### Multi-Language Support
+{{% fragment class="grow" %}}
+### 🌍 Multi-Language Support
 - **JavaScript/TypeScript** (Stable)
-- **Go** (Beta) ← Today's focus
+- **Go** (Beta) ← Today's focus  
 - **Python** (Alpha)
 {{% /fragment %}}
 
-{{% fragment %}}
-### Production-Ready Features
+{{% fragment class="highlight-current-blue" %}}
+### ⚡ Production-Ready Features
 Monitoring, evaluation, deployment, and observability built-in
 {{% /fragment %}}
 
----
+</div>
 
-## Why Choose Go Genkit?
-
-{{< mermaid >}}
-graph TB
-    A[Go Genkit Benefits] --> B[🎯 Type Safety]
-    A --> C[⚡ High Performance]
-    A --> D[🔄 Concurrency]
-    A --> E[☁️ Cloud Native]
-    
-    B --> B1[Compile-time error detection]
-    C --> C1[Efficient memory management]
-    D --> D1[Built-in goroutines]
-    E --> E1[Easy Kubernetes deployment]
-{{< /mermaid >}}
+{{% note %}}
+- Emphasize Google's investment in AI tooling
+- Point out Go is in beta but very capable
+- Mention production-ready means enterprise features from day one
+{{% /note %}}
 
 ---
 
-## Architecture Overview
+## Why Choose Go Genkit? {data-auto-animate="true"}
+
+<div class="r-hstack">
+<div class="fragment highlight-current-red">🎯 **Type Safety**</div>
+<div class="fragment highlight-current-green">⚡ **Performance**</div>
+<div class="fragment highlight-current-blue">🔄 **Concurrency**</div>
+<div class="fragment highlight-current-yellow">☁️ **Cloud Native**</div>
+</div>
+
+---
+
+## Why Choose Go Genkit? {data-auto-animate="true"}
+
+<div class="r-vstack">
+<div class="fragment fade-right">
+**🎯 Type Safety** → Compile-time error detection
+</div>
+<div class="fragment fade-right">
+**⚡ Performance** → Efficient memory management  
+</div>
+<div class="fragment fade-right">
+**🔄 Concurrency** → Built-in goroutines
+</div>
+<div class="fragment fade-right">
+**☁️ Cloud Native** → Easy Kubernetes deployment
+</div>
+</div>
+
+{{% note %}}
+Walk through each benefit:
+- Type safety catches errors before runtime
+- Go's performance is crucial for AI workloads
+- Concurrency handles multiple AI requests efficiently
+- Cloud native deployment reduces ops overhead
+{{% /note %}}
+
+## Architecture Overview {data-background-color="#f8f9fa"}
+
+<div class="genkit-highlight">
 
 {{< mermaid >}}
 graph TB
-    subgraph "Your Application"
+    subgraph "🏗️ Your Application"
         A[Go Application]
         B[Business Logic]
     end
     
-    subgraph "Genkit Core"
+    subgraph "⚙️ Genkit Core"
         C[Flow Engine]
         D[Model Registry]
         E[Tool System]
         F[Prompt Manager]
     end
     
-    subgraph "AI Providers"
+    subgraph "🤖 AI Providers"
         G[Google AI]
         H[OpenAI]
         I[Anthropic]
         J[Ollama]
     end
     
-    subgraph "Storage"
+    subgraph "💾 Storage"
         K[Vector Stores]
         L[Databases]
     end
@@ -100,11 +150,35 @@ graph TB
     D --> J
     E --> K
     E --> L
+    
+    style A fill:#4285f4
+    style C fill:#34a853
+    style G fill:#fbbc04
 {{< /mermaid >}}
+
+</div>
+
+{{% note %}}
+This shows how Genkit sits between your app and AI providers:
+- Your app talks to Genkit, not directly to AI APIs
+- Genkit handles all the complexity 
+- Easy to switch providers or use multiple ones
+{{% /note %}}
 
 ---
 
-## Getting Started
+## Getting Started {data-auto-animate="true"}
+
+### Installation
+
+```bash
+# Initialize Go module
+go mod init my-genkit-app
+```
+
+---
+
+## Getting Started {data-auto-animate="true"}
 
 ### Installation
 
@@ -112,12 +186,31 @@ graph TB
 # Initialize Go module
 go mod init my-genkit-app
 
-# Install Genkit
+# Install Genkit core
+go get github.com/firebase/genkit/go/genkit
+```
+
+---
+
+## Getting Started {data-auto-animate="true"}
+
+### Installation
+
+```bash
+# Initialize Go module
+go mod init my-genkit-app
+
+# Install Genkit core
 go get github.com/firebase/genkit/go/genkit
 
 # Install AI provider
 go get github.com/firebase/genkit/go/plugins/googleai
 ```
+
+{{% note %}}
+Show how simple it is to get started - just a few go get commands.
+Mention other providers available: OpenAI, Anthropic, Ollama
+{{% /note %}}
 
 ---
 
@@ -161,11 +254,37 @@ func main() {
 
 ---
 
-## Core Components
+## Core Components {data-transition="convex"}
+
+<div class="r-vstack">
+
+{{% fragment class="zoom-in" %}}
+### 🤖 Models
+**Unified Interface** for multiple AI providers
+{{% /fragment %}}
+
+{{% fragment class="zoom-in" %}}  
+### 🔄 Flows
+**Workflows** that orchestrate AI operations
+{{% /fragment %}}
+
+{{% fragment class="zoom-in" %}}
+### 📝 Prompts
+**Template System** for managing prompts
+{{% /fragment %}}
+
+{{% fragment class="zoom-in" %}}
+### 🛠️ Tools
+**Function Calling** to extend AI capabilities
+{{% /fragment %}}
+
+</div>
+
+---
 
 ### 1. Models
 
-{{% fragment %}}
+{{% fragment class="highlight-current-blue" %}}
 **Unified Interface** for multiple AI providers
 {{% /fragment %}}
 
@@ -305,6 +424,32 @@ resp, err := ai.Generate(ctx, &ai.GenerateRequest{
     Tools: []*ai.Tool{weatherTool},
 })
 ```
+
+---
+
+<!-- Interactive poll example -->
+## Quick Poll 📊 {data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)"}
+
+### Which AI provider do you currently use?
+
+<div class="r-stack">
+<div class="fragment fade-in-then-out">🗳️ **Vote now!**</div>
+<div class="fragment">
+
+{{% fragment class="fade-left" %}}**A)** Google AI (Gemini){{% /fragment %}}
+{{% fragment class="fade-left" %}}**B)** OpenAI (GPT){{% /fragment %}}
+{{% fragment class="fade-left" %}}**C)** Anthropic (Claude){{% /fragment %}}
+{{% fragment class="fade-left" %}}**D)** Local models (Ollama){{% /fragment %}}
+{{% fragment class="fade-left" %}}**E)** Haven't started with AI yet{{% /fragment %}}
+
+</div>
+</div>
+
+{{% note %}}
+- Great way to gauge audience experience
+- Use results to adjust technical depth
+- Mention Genkit supports all these providers!
+{{% /note %}}
 
 ---
 
@@ -705,6 +850,44 @@ var codeGenerator = genkit.DefineFlow(
     },
 )
 ```
+
+---
+
+<!-- Multi-column comparison -->
+## Traditional vs Genkit {data-background-color="#1a1a1a"}
+
+<div class="r-hstack">
+<div>
+
+{{% fragment class="fade-in-then-semi-out" %}}
+### 😰 Traditional Approach
+{{% /fragment %}}
+
+{{% fragment class="fade-up" %}}
+- Manual API integration
+- Custom error handling  
+- No built-in monitoring
+- Complex deployment
+- Vendor lock-in
+{{% /fragment %}}
+
+</div>
+<div>
+
+{{% fragment class="fade-in-then-semi-out" %}}
+### 🚀 With Go Genkit
+{{% /fragment %}}
+
+{{% fragment class="fade-up" %}}
+- Unified interface
+- Built-in resilience
+- Automatic telemetry
+- Simple deployment
+- Provider flexibility
+{{% /fragment %}}
+
+</div>
+</div>
 
 ---
 
@@ -1121,27 +1304,31 @@ go test ./...
 
 ---
 
-## Key Takeaways
+## Key Takeaways {.r-fit-text}
 
-{{% fragment %}}
+<div class="r-vstack">
+
+{{% fragment class="highlight-current-blue" %}}
 ### 🚀 **Production Ready**
 Built by Google with enterprise features
 {{% /fragment %}}
 
-{{% fragment %}}
-### 🔧 **Developer Friendly**
+{{% fragment class="highlight-current-green" %}}
+### 🔧 **Developer Friendly**  
 Great tooling and debugging experience
 {{% /fragment %}}
 
-{{% fragment %}}
+{{% fragment class="highlight-current-red" %}}
 ### ⚡ **High Performance**
 Go's efficiency with AI capabilities
 {{% /fragment %}}
 
-{{% fragment %}}
+{{% fragment class="highlight-current-yellow" %}}
 ### 🌐 **Flexible**
 Multiple providers and deployment options
 {{% /fragment %}}
+
+</div>
 
 ---
 
@@ -1157,23 +1344,65 @@ Multiple providers and deployment options
 
 ---
 
-## Demo Time! 
+<!-- Demo slide with special transition -->
+## Live Demo Time! 🎯 {data-transition="zoom" data-background-color="#1a1a1a"}
+
+<div class="fragment">
 
 ### Let's Build Something Together
 
-**Live coding session**: Creating a simple AI-powered application with Go Genkit
+**Building a real AI application with Go Genkit**
+
+</div>
+
+{{% fragment class="fade-up" %}}
+```bash
+# Follow along at:
+git clone https://github.com/demo/genkit-live-demo
+cd genkit-live-demo
+go run main.go
+```
+{{% /fragment %}}
+
+{{% note %}}
+- This is where you'd do your live coding
+- Have a backup plan in case of technical issues
+- Keep it simple but impressive
+- Maybe a chatbot or document summarizer
+{{% /note %}}
 
 ---
 
-# Thank You! 
+# Thank You! {data-background-gradient="linear-gradient(45deg, #4285f4 0%, #34a853 100%)"}
 
-## Questions & Discussion
+## Questions & Discussion 💬
 
-**Resources:**
-- 🌐 [genkit.dev](https://genkit.dev)
-- 📱 GitHub: [firebase/genkit](https://github.com/firebase/genkit)
-- 💬 Discord: [Genkit Community](https://discord.gg/qXt5zzQKpc)
+<div class="r-hstack">
+<div>
 
-**Contact:** 
-- Email: genkit-team@google.com
-- Twitter: @genkitdev
+### 📚 Resources
+- [genkit.dev](https://genkit.dev)
+- [GitHub](https://github.com/firebase/genkit)
+- [Discord Community](https://discord.gg/qXt5zzQKpc)
+
+</div>
+<div>
+
+### 📧 Contact
+- **Email**: genkit-team@google.com
+- **Twitter**: @genkitdev
+- **LinkedIn**: /company/google
+
+</div>
+</div>
+
+{{% fragment class="fade-up" %}}
+### 🚀 Start building with Go Genkit today!
+{{% /fragment %}}
+
+{{% note %}}
+- Thank the audience
+- Encourage questions - be ready for technical depth
+- Offer to connect on social media
+- Maybe offer office hours or follow-up resources
+{{% /note %}}

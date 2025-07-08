@@ -43,8 +43,6 @@ transition = "slide"
 
 {{< slide template="hero" >}}
 
-{{< partial "language-selector" . >}}
-
 # <span style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">البرنامج التجريبي لإنشاء محتوى المقهى</span>
 ## <span style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">تجربة 7 أيام + خطة النمو لـ 30 يوماً</span>
 

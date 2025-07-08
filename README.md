@@ -31,7 +31,7 @@ This project uses [Hugo](https://gohugo.io/) with the [reveal-hugo](https://gith
 
 4. Open your browser to `http://localhost:1313` to view the presentations
 
-5. **For GitHub Pages deployment**: Simply push your changes to the `master` branch and GitHub Actions will automatically build and deploy your site!
+5. **For GitHub Pages deployment**: Simply push your changes to the `main` branch and GitHub Actions will automatically build and deploy your site!
 
 ## Creating a New Presentation
 
@@ -80,14 +80,14 @@ This project is configured to automatically deploy to GitHub Pages using GitHub 
    - Go to your repository → Settings → Pages
    - Under "Source", select "GitHub Actions"
 
-2. **Push to master branch** - The workflow will automatically trigger and deploy your site
+2. **Push to main branch** - The workflow will automatically trigger and deploy your site
 
 3. **View your presentations** at: `https://[your-username].github.io/[repository-name]/`
 
 ### Automatic Deployment
 
 The GitHub Actions workflow (`.github/workflows/hugo-deploy.yml`) will:
-- ✅ Trigger on every push to the `master` branch
+- ✅ Trigger on every push to the `main` branch
 - ✅ Install Hugo and build dependencies
 - ✅ Checkout code including git submodules (for the reveal-hugo theme)
 - ✅ Build the Hugo site with minification

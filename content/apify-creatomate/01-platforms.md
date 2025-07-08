@@ -92,32 +92,32 @@ weight = 10
 
 ### 1. Data-Driven Video Generation
 
-```mermaid
+{{< mermaid >}}
 graph LR
     A[Apify Scraper] --> B[Raw Data]
     B --> C[AI Processing]
     C --> D[Creatomate Template]
     D --> E[Generated Videos]
-```
+{{< /mermaid >}}
 
 ---
 
 ### 2. Real-Time Content Updates
 
-```mermaid
+{{< mermaid >}}
 graph LR
     A[News/Trends Scraping] --> B[Content Analysis]
     B --> C[Video Template Selection]
     C --> D[Automated Publishing]
-```
+{{< /mermaid >}}
 
 ---
 
 ### 3. Competitive Intelligence Videos
 
-```mermaid
+{{< mermaid >}}
 graph LR
     A[Competitor Data] --> B[AI Analysis]
     B --> C[Insight Generation]
     C --> D[Video Reports]
-```
+{{< /mermaid >}}

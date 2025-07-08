@@ -46,7 +46,7 @@ Monitoring, evaluation, deployment, and observability built-in
 
 ## Why Choose Go Genkit?
 
-```mermaid
+{{< mermaid >}}
 graph TB
     A[Go Genkit Benefits] --> B[🎯 Type Safety]
     A --> C[⚡ High Performance]
@@ -57,13 +57,13 @@ graph TB
     C --> C1[Efficient memory management]
     D --> D1[Built-in goroutines]
     E --> E1[Easy Kubernetes deployment]
-```
+{{< /mermaid >}}
 
 ---
 
 ## Architecture Overview
 
-```mermaid
+{{< mermaid >}}
 graph TB
     subgraph "Your Application"
         A[Go Application]
@@ -100,7 +100,7 @@ graph TB
     D --> J
     E --> K
     E --> L
-```
+{{< /mermaid >}}
 
 ---
 
@@ -209,7 +209,7 @@ var chatFlow = genkit.DefineFlow(
 
 ### Flow Architecture
 
-```mermaid
+{{< mermaid >}}
 flowchart TD
     A[User Input] --> B[Flow Start]
     B --> C{Validation}
@@ -223,7 +223,7 @@ flowchart TD
     J --> F
     E --> K[End]
     I --> K
-```
+{{< /mermaid >}}
 
 ---
 
@@ -312,7 +312,7 @@ resp, err := ai.Generate(ctx, &ai.GenerateRequest{
 
 ### Vector Store Integration
 
-```mermaid
+{{< mermaid >}}
 graph LR
     A[User Query] --> B[Embed Query]
     B --> C[Vector Search]
@@ -329,7 +329,7 @@ graph LR
     C --> H
     H --> I
     I --> D
-```
+{{< /mermaid >}}
 
 ---
 
@@ -550,7 +550,7 @@ spec:
 
 ### Built-in Telemetry
 
-```mermaid
+{{< mermaid >}}
 graph TB
     A[Genkit Application] --> B[Telemetry Collection]
     B --> C[Traces]
@@ -564,7 +564,7 @@ graph TB
     F --> I[Distributed Tracing]
     G --> J[Performance Metrics]
     H --> K[Debug Information]
-```
+{{< /mermaid >}}
 
 ---
 

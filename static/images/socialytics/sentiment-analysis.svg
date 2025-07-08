@@ -1,0 +1,98 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="positiveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#34a853;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="negativeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ea4335;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ea4335;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="neutralGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbc04;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fbbc04;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Google Sans, Arial, sans-serif" font-size="24" font-weight="500" fill="#202124" text-anchor="middle">Real-time Sentiment Analysis</text>
+  
+  <!-- Chart background -->
+  <rect x="100" y="80" width="600" height="250" rx="12" fill="#f8f9fa" stroke="#e8eaed" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="120" y1="100" x2="680" y2="100" stroke="#e8eaed" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="150" x2="680" y2="150" stroke="#e8eaed" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="200" x2="680" y2="200" stroke="#e8eaed" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="250" x2="680" y2="250" stroke="#e8eaed" stroke-width="1" opacity="0.5"/>
+  <line x1="120" y1="300" x2="680" y2="300" stroke="#e8eaed" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Y-axis labels -->
+  <text x="110" y="105" font-family="Arial, sans-serif" font-size="12" fill="#5f6368" text-anchor="end">100%</text>
+  <text x="110" y="155" font-family="Arial, sans-serif" font-size="12" fill="#5f6368" text-anchor="end">75%</text>
+  <text x="110" y="205" font-family="Arial, sans-serif" font-size="12" fill="#5f6368" text-anchor="end">50%</text>
+  <text x="110" y="255" font-family="Arial, sans-serif" font-size="12" fill="#5f6368" text-anchor="end">25%</text>
+  <text x="110" y="305" font-family="Arial, sans-serif" font-size="12" fill="#5f6368" text-anchor="end">0%</text>
+  
+  <!-- Sentiment bars -->
+  <!-- Positive sentiment (65%) -->
+  <rect x="150" y="170" width="80" height="130" rx="4" fill="url(#positiveGradient)" filter="url(#glow)">
+    <animate attributeName="height" values="0;130" dur="2s" begin="0.5s" fill="freeze"/>
+    <animate attributeName="y" values="300;170" dur="2s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <text x="190" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#34a853" text-anchor="middle">Positive</text>
+  <text x="190" y="345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#34a853" text-anchor="middle">65%</text>
+  
+  <!-- Neutral sentiment (25%) -->
+  <rect x="280" y="250" width="80" height="50" rx="4" fill="url(#neutralGradient)" filter="url(#glow)">
+    <animate attributeName="height" values="0;50" dur="2s" begin="1s" fill="freeze"/>
+    <animate attributeName="y" values="300;250" dur="2s" begin="1s" fill="freeze"/>
+  </rect>
+  <text x="320" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#fbbc04" text-anchor="middle">Neutral</text>
+  <text x="320" y="345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#fbbc04" text-anchor="middle">25%</text>
+  
+  <!-- Negative sentiment (10%) -->
+  <rect x="410" y="280" width="80" height="20" rx="4" fill="url(#negativeGradient)" filter="url(#glow)">
+    <animate attributeName="height" values="0;20" dur="2s" begin="1.5s" fill="freeze"/>
+    <animate attributeName="y" values="300;280" dur="2s" begin="1.5s" fill="freeze"/>
+  </rect>
+  <text x="450" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#ea4335" text-anchor="middle">Negative</text>
+  <text x="450" y="345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ea4335" text-anchor="middle">10%</text>
+  
+  <!-- Live data indicator -->
+  <circle cx="650" y="110" r="6" fill="#34a853">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="665" y="115" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Live Data</text>
+  
+  <!-- Recent mentions -->
+  <rect x="520" y="140" width="160" height="120" rx="8" fill="#ffffff" stroke="#e8eaed" stroke-width="1"/>
+  <text x="530" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#202124">Recent Mentions</text>
+  
+  <!-- Sample mentions -->
+  <circle cx="535" cy="180" r="3" fill="#34a853"/>
+  <text x="545" y="185" font-family="Arial, sans-serif" font-size="11" fill="#5f6368">"Amazing product! 😍"</text>
+  
+  <circle cx="535" cy="200" r="3" fill="#34a853"/>
+  <text x="545" y="205" font-family="Arial, sans-serif" font-size="11" fill="#5f6368">"Love the new features"</text>
+  
+  <circle cx="535" cy="220" r="3" fill="#fbbc04"/>
+  <text x="545" y="225" font-family="Arial, sans-serif" font-size="11" fill="#5f6368">"It's okay, could be better"</text>
+  
+  <circle cx="535" cy="240" r="3" fill="#ea4335"/>
+  <text x="545" y="245" font-family="Arial, sans-serif" font-size="11" fill="#5f6368">"Not what I expected"</text>
+  
+  <!-- Confidence score -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Confidence: 94%</text>
+  
+</svg>

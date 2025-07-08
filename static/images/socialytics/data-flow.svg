@@ -1,0 +1,162 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dataGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="processGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="flowShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4285f4" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="500" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Google Sans, Arial, sans-serif" font-size="28" font-weight="500" fill="#202124" text-anchor="middle">Socialytics Data Flow</text>
+  
+  <!-- Data Sources Section -->
+  <rect x="50" y="80" width="150" height="350" rx="12" fill="#f8f9fa" stroke="#e8eaed" stroke-width="2"/>
+  <text x="125" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124" text-anchor="middle">Data Sources</text>
+  
+  <!-- Social platform icons -->
+  <circle cx="80" cy="150" r="20" fill="#1da1f2" filter="url(#flowShadow)"/>
+  <text x="80" y="158" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">𝕏</text>
+  <text x="110" y="158" font-family="Arial, sans-serif" font-size="12" fill="#202124">Twitter</text>
+  
+  <circle cx="80" cy="190" r="20" fill="#e4405f" filter="url(#flowShadow)"/>
+  <rect x="70" y="180" width="20" height="20" rx="5" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="80" cy="190" r="4" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="85" cy="185" r="1.5" fill="#ffffff"/>
+  <text x="110" y="198" font-family="Arial, sans-serif" font-size="12" fill="#202124">Instagram</text>
+  
+  <circle cx="80" cy="230" r="20" fill="#0077b5" filter="url(#flowShadow)"/>
+  <rect x="73" y="223" width="14" height="14" rx="1" fill="#ffffff"/>
+  <text x="110" y="238" font-family="Arial, sans-serif" font-size="12" fill="#202124">LinkedIn</text>
+  
+  <circle cx="80" cy="270" r="20" fill="#ff0050" filter="url(#flowShadow)"/>
+  <text x="80" y="278" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">T</text>
+  <text x="110" y="278" font-family="Arial, sans-serif" font-size="12" fill="#202124">TikTok</text>
+  
+  <circle cx="80" cy="310" r="20" fill="#ff0000" filter="url(#flowShadow)"/>
+  <polygon points="73,305 73,315 87,315 87,305" fill="#ffffff"/>
+  <polygon points="78,308 78,312 83,310" fill="#ff0000"/>
+  <text x="110" y="318" font-family="Arial, sans-serif" font-size="12" fill="#202124">YouTube</text>
+  
+  <!-- Processing Engine Section -->
+  <rect x="250" y="80" width="200" height="350" rx="12" fill="url(#processGradient)" filter="url(#flowShadow)"/>
+  <text x="350" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Processing Engine</text>
+  
+  <!-- Processing steps -->
+  <rect x="270" y="140" width="160" height="40" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="350" y="165" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Real-time Ingestion</text>
+  
+  <rect x="270" y="200" width="160" height="40" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="350" y="225" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Data Cleaning</text>
+  
+  <rect x="270" y="260" width="160" height="40" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="350" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">NLP Processing</text>
+  
+  <rect x="270" y="320" width="160" height="40" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="350" y="345" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Sentiment Analysis</text>
+  
+  <!-- AI Analytics Section -->
+  <rect x="500" y="80" width="200" height="350" rx="12" fill="url(#dataGradient)" filter="url(#flowShadow)"/>
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">AI Analytics</text>
+  
+  <!-- AI components -->
+  <rect x="520" y="140" width="160" height="35" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="600" y="162" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Machine Learning</text>
+  
+  <rect x="520" y="190" width="160" height="35" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="600" y="212" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Trend Detection</text>
+  
+  <rect x="520" y="240" width="160" height="35" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="600" y="262" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Predictive Models</text>
+  
+  <rect x="520" y="290" width="160" height="35" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="600" y="312" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Anomaly Detection</text>
+  
+  <rect x="520" y="340" width="160" height="35" rx="8" fill="#ffffff" opacity="0.9"/>
+  <text x="600" y="362" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#202124" text-anchor="middle">Content Optimization</text>
+  
+  <!-- Insights & Outputs Section -->
+  <rect x="750" y="80" width="200" height="350" rx="12" fill="#f8f9fa" stroke="#e8eaed" stroke-width="2"/>
+  <text x="850" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124" text-anchor="middle">Insights & Outputs</text>
+  
+  <!-- Output types -->
+  <rect x="770" y="140" width="160" height="35" rx="8" fill="#4285f4" opacity="0.1" stroke="#4285f4" stroke-width="1"/>
+  <text x="850" y="162" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#4285f4" text-anchor="middle">Real-time Dashboards</text>
+  
+  <rect x="770" y="190" width="160" height="35" rx="8" fill="#34a853" opacity="0.1" stroke="#34a853" stroke-width="1"/>
+  <text x="850" y="212" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#34a853" text-anchor="middle">Automated Alerts</text>
+  
+  <rect x="770" y="240" width="160" height="35" rx="8" fill="#ea4335" opacity="0.1" stroke="#ea4335" stroke-width="1"/>
+  <text x="850" y="262" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#ea4335" text-anchor="middle">Custom Reports</text>
+  
+  <rect x="770" y="290" width="160" height="35" rx="8" fill="#fbbc04" opacity="0.1" stroke="#fbbc04" stroke-width="1"/>
+  <text x="850" y="312" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#fbbc04" text-anchor="middle">API Access</text>
+  
+  <rect x="770" y="340" width="160" height="35" rx="8" fill="#9c27b0" opacity="0.1" stroke="#9c27b0" stroke-width="1"/>
+  <text x="850" y="362" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#9c27b0" text-anchor="middle">Mobile Apps</text>
+  
+  <!-- Flow arrows -->
+  <line x1="200" y1="200" x2="240" y2="200" stroke="#4285f4" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="200" y1="250" x2="240" y2="250" stroke="#4285f4" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="200" y1="300" x2="240" y2="300" stroke="#4285f4" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="450" y1="200" x2="490" y2="200" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="450" y1="250" x2="490" y2="250" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="450" y1="300" x2="490" y2="300" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="2.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="700" y1="200" x2="740" y2="200" stroke="#ea4335" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="700" y1="250" x2="740" y2="250" stroke="#ea4335" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="3.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="700" y1="300" x2="740" y2="300" stroke="#ea4335" stroke-width="3" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dasharray" values="0,10;10,0" dur="2s" begin="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Performance metrics -->
+  <rect x="100" y="450" width="800" height="30" rx="15" fill="#f8f9fa" stroke="#e8eaed" stroke-width="1"/>
+  <text x="150" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5f6368">Processing Speed:</text>
+  <text x="260" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#34a853">500K posts/second</text>
+  
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5f6368">Latency:</text>
+  <text x="460" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4285f4">&lt;100ms</text>
+  
+  <text x="550" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5f6368">Accuracy:</text>
+  <text x="610" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ea4335">94%</text>
+  
+  <text x="680" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#5f6368">Uptime:</text>
+  <text x="730" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fbbc04">99.9%</text>
+  
+</svg>

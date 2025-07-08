@@ -1,0 +1,109 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#heroGradient)"/>
+  
+  <!-- Floating geometric shapes -->
+  <circle cx="100" cy="100" r="40" fill="#ffffff" opacity="0.1"/>
+  <circle cx="1100" cy="500" r="60" fill="#ffffff" opacity="0.1"/>
+  <rect x="950" y="50" width="80" height="80" rx="40" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Central dashboard mockup -->
+  <rect x="300" y="150" width="600" height="300" rx="20" fill="url(#cardGradient)" filter="url(#shadow)"/>
+  
+  <!-- Dashboard header -->
+  <rect x="320" y="170" width="560" height="50" rx="8" fill="#4285f4" opacity="0.1"/>
+  <text x="340" y="200" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#202124">Socialytics Dashboard</text>
+  
+  <!-- Chart area -->
+  <rect x="340" y="240" width="240" height="120" rx="8" fill="#ffffff" stroke="#e8eaed" stroke-width="1"/>
+  
+  <!-- Chart bars -->
+  <rect x="360" y="300" width="20" height="40" fill="#4285f4"/>
+  <rect x="390" y="280" width="20" height="60" fill="#34a853"/>
+  <rect x="420" y="320" width="20" height="20" fill="#ea4335"/>
+  <rect x="450" y="260" width="20" height="80" fill="#fbbc04"/>
+  <rect x="480" y="290" width="20" height="50" fill="#4285f4"/>
+  <rect x="510" y="270" width="20" height="70" fill="#34a853"/>
+  
+  <!-- Metrics cards -->
+  <rect x="600" y="240" width="120" height="50" rx="8" fill="#ffffff" stroke="#e8eaed" stroke-width="1"/>
+  <text x="610" y="260" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Engagement</text>
+  <text x="610" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34a853">+340%</text>
+  
+  <rect x="600" y="300" width="120" height="50" rx="8" fill="#ffffff" stroke="#e8eaed" stroke-width="1"/>
+  <text x="610" y="320" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">Reach</text>
+  <text x="610" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4285f4">180K</text>
+  
+  <!-- Social media icons -->
+  <!-- Twitter/X icon -->
+  <circle cx="150" cy="250" r="30" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="140" y="260" font-family="Arial, sans-serif" font-size="24" fill="#1da1f2">𝕏</text>
+  
+  <!-- Instagram icon -->
+  <circle cx="150" cy="320" r="30" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="135" y="305" width="30" height="30" rx="8" fill="none" stroke="#e4405f" stroke-width="2"/>
+  <circle cx="150" cy="320" r="6" fill="none" stroke="#e4405f" stroke-width="2"/>
+  <circle cx="158" cy="312" r="2" fill="#e4405f"/>
+  
+  <!-- LinkedIn icon -->
+  <circle cx="150" cy="390" r="30" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="138" y="378" width="24" height="24" rx="2" fill="#0077b5"/>
+  <rect x="140" y="395" width="4" height="10" fill="#ffffff"/>
+  <rect x="146" y="391" width="4" height="14" fill="#ffffff"/>
+  <rect x="152" y="387" width="4" height="18" fill="#ffffff"/>
+  <circle cx="142" cy="383" r="2" fill="#ffffff"/>
+  
+  <!-- TikTok icon -->
+  <circle cx="1050" cy="250" r="30" fill="#ffffff" filter="url(#shadow)"/>
+  <path d="M1040 235 Q1045 230 1050 235 Q1055 230 1060 235 L1060 245 Q1055 240 1050 245 Q1045 240 1040 245 Z" fill="#ff0050"/>
+  <circle cx="1050" cy="255" r="8" fill="#25f4ee"/>
+  
+  <!-- YouTube icon -->
+  <circle cx="1050" cy="320" r="30" fill="#ffffff" filter="url(#shadow)"/>
+  <path d="M1035 310 L1035 330 L1065 330 L1065 310 Q1060 305 1050 305 Q1040 305 1035 310 Z" fill="#ff0000"/>
+  <polygon points="1045,315 1045,325 1055,320" fill="#ffffff"/>
+  
+  <!-- AI/Analytics elements -->
+  <g transform="translate(750, 380)">
+    <!-- Neural network visualization -->
+    <circle cx="0" cy="0" r="4" fill="#4285f4"/>
+    <circle cx="30" cy="-15" r="4" fill="#34a853"/>
+    <circle cx="30" cy="15" r="4" fill="#ea4335"/>
+    <circle cx="60" cy="0" r="4" fill="#fbbc04"/>
+    
+    <line x1="4" y1="0" x2="26" y2="-15" stroke="#4285f4" stroke-width="2" opacity="0.6"/>
+    <line x1="4" y1="0" x2="26" y2="15" stroke="#4285f4" stroke-width="2" opacity="0.6"/>
+    <line x1="34" y1="-15" x2="56" y2="0" stroke="#34a853" stroke-width="2" opacity="0.6"/>
+    <line x1="34" y1="15" x2="56" y2="0" stroke="#ea4335" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Floating data points -->
+  <circle cx="200" cy="450" r="3" fill="#4285f4" opacity="0.8">
+    <animate attributeName="cy" values="450;440;450" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="150" r="3" fill="#34a853" opacity="0.8">
+    <animate attributeName="cy" values="150;140;150" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="500" r="3" fill="#ea4335" opacity="0.8">
+    <animate attributeName="cy" values="500;490;500" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title text -->
+  <text x="600" y="100" font-family="Google Sans, Arial, sans-serif" font-size="48" font-weight="300" fill="#ffffff" text-anchor="middle">Socialytics</text>
+  <text x="600" y="130" font-family="Google Sans, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" opacity="0.9">AI-Powered Social Analytics</text>
+  
+</svg>

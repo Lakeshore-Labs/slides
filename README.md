@@ -1,10 +1,10 @@
 # Company Presentations
 
-This repository contains Hugo-based presentations using the reveal.js theme for our company presentations.
+This repository serves as the **central hub for all company presentations**. It contains Hugo-based presentations using the reveal.js theme, making it easy to create, maintain, and deploy professional slide presentations for our organization.
 
 ## Overview
 
-This project uses [Hugo](https://gohugo.io/) with the [reveal-hugo](https://github.com/dzello/reveal-hugo) theme to create beautiful slide presentations that can be viewed in any web browser.
+This project uses [Hugo](https://gohugo.io/) with the [reveal-hugo](https://github.com/dzello/reveal-hugo) theme to create beautiful slide presentations that can be viewed in any web browser. All presentations are stored in a single repository for easy management and consistent styling across the organization.
 
 ## Prerequisites
 
@@ -35,30 +35,87 @@ This project uses [Hugo](https://gohugo.io/) with the [reveal-hugo](https://gith
 
 ## Creating a New Presentation
 
-1. Create a new presentation directory in `content/`:
+To create a new presentation for the company, simply add a new directory to the `content/` folder:
+
+### Step 1: Create the Presentation Directory
+
+```bash
+mkdir content/[presentation-name]
+```
+
+**Naming Convention**: Use descriptive, lowercase names with hyphens (e.g., `quarterly-review`, `product-launch`, `team-training`).
+
+### Step 2: Create the Presentation Content
+
+Create an `_index.md` file in your new directory with your presentation content:
+
+```markdown
+---
+title: "Your Presentation Title"
+theme: "white"
+date: 2024-01-01
+author: "Your Name"
+---
+
+# Your Presentation Title
+
+Welcome to the presentation!
+
+---
+
+## Slide 2
+
+This is the second slide.
+
+---
+
+## Slide 3
+
+Add more content here...
+```
+
+### Step 3: Preview Your Presentation
+
+1. Start the Hugo development server:
    ```bash
-   mkdir content/my-presentation
+   hugo server
    ```
 
-2. Create an `_index.md` file with your presentation content:
+2. Navigate to `http://localhost:1313/[presentation-name]/` to view your presentation
+
+### Step 4: Add Assets (Optional)
+
+If your presentation includes images or other assets:
+
+1. Create a static folder for your assets:
+   ```bash
+   mkdir static/images/[presentation-name]
+   ```
+
+2. Add your images and reference them in your presentation:
    ```markdown
-   ---
-   title: "My Presentation"
-   theme: "white"
-   ---
-
-   # My Presentation
-
-   Welcome to my presentation!
-
-   ---
-
-   ## Slide 2
-
-   This is the second slide.
+   ![Image Description](/images/[presentation-name]/your-image.jpg)
    ```
 
-3. Preview your presentation at `http://localhost:1313/my-presentation/`
+## Existing Presentations
+
+Browse the `content/` directory to see all available presentations:
+
+```
+content/
+├── bundle-example/          # Example of bundled presentation
+├── cafe/                    # Cafe-themed presentation
+├── custom-theme-example/    # Custom theme demonstration
+├── docs/                    # Documentation presentation
+├── home/                    # Home page content
+├── logo-example/            # Logo integration example
+├── plugin-example/          # Plugin usage examples
+├── section-example/         # Section-based presentation
+├── template-example/        # Template usage example
+└── trainer/                 # Training presentation
+```
+
+Each directory represents a separate presentation that can be accessed at `http://localhost:1313/[directory-name]/`.
 
 ## Building for Production
 

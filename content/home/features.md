@@ -1,28 +1,33 @@
 +++
 weight = 10
 +++
-{{< slide id=included >}}
+{{< slide id="services" >}}
 
-## What's included?
+## Our Services
 
-- All Reveal.js HTML, CSS and JS (v5.1.0)
-- All out-of-the-box Reveal.js themes
-- Two custom Reveal.js themes (including this one)
-
-<br>
-<br>
-
-[see the code on github](https://github.com/joshed-io/reveal-hugo)
+How We Help Your Business Grow
 
 ---
-{{< slide id=features >}}
 
-## Features
+### AI-Powered Social Media Management
+Stop guessing and start engaging. We use AI to analyze your audience, create content that resonates, and schedule posts for maximum impact.
 
-- Write slides in Markdown in one or more files
-- Shortcodes for fragments, sections, slides & more
-- All Reveal.js parameters can be customized
-- Any Hugo section can be output as a presentation
-- Supports math code blocks
-- Supports mermaid code blocks
-- Supports offline development or using a CDN
+---
+
+### Business Process Automation
+Tired of tedious, repetitive tasks? We identify bottlenecks in your workflow and build automated solutions that save you time and money.
+
+---
+
+### Custom Internal Apps
+Give your team the tools they need to succeed. We develop intuitive, custom applications that streamline your operations and boost productivity.
+
+---
+
+### Personal AI Coaching
+Unlock your full potential. Our one-on-one coaching sessions will teach you how to leverage AI in your daily life and career.
+
+---
+
+### Professional Portfolio Development
+Showcase your skills and experience in a stunning, modern portfolio. We work with you to create a professional online presence that gets you noticed.

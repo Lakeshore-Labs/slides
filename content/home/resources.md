@@ -2,42 +2,22 @@
 weight = 42
 +++
 
-# Resources
+# Happy Customers
 
 ---
 
-## Code and docs
-
-- [reveal-hugo Github README](https://github.com/joshed-io/reveal-hugo)
-- [Content for this presentation](https://github.com/joshed-io/reveal-hugo/tree/master/exampleSite)
-
----
-
-## External resources
-
-- [Reveal.js](https://revealjs.com/)
-- [Hugo docs](https://gohugo.io/)
-- [Hugo output format docs](https://gohugo.io/templates/output-formats/)
+> "V-Logical AI transformed our social media presence. Our engagement has skyrocketed, and we're finally reaching the right audience."
+>
+> **- John Doe, CEO of a Cool Startup**
 
 ---
 
-## Designed to...
-
-- Deploy to [Netlify](https://netlify.com/)
-- Edit with [Forestry](https://forestry.io/)
-
----
-
-# 🙏
-
-Contribute by opening issues and pull requests.
+> "The business process automation they implemented saved us countless hours. I can't imagine going back to the old way."
+>
+> **- Jane Smith, Operations Manager**
 
 ---
 
-# Thanks!
-
----
-
-# ↩️
-
-#### [Start over](#)
+> "The custom app they built for our team is a game-changer. It's intuitive, fast, and has everything we need."
+>
+> **- Emily White, Team Lead**

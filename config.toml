@@ -26,6 +26,15 @@ theme = "reveal-hugo"
     title = "Bài Thuyết Trình Công Ty"
     weight = 2
 
+  [languages.ar]
+    contentDir = "content"
+    languageCode = "ar-OM"
+    languageName = "العربية العُمانية"
+    title = "عروض الشركة التقديمية"
+    weight = 3
+    [languages.ar.params]
+      textDirection = "rtl"
+
 [params]
 author = "Company Name"
 

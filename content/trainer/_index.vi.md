@@ -1,6 +1,6 @@
 ---
-title: "7-Day Content Creation Pilot"
-subtitle: "Personal Trainer Content Partnership"
+title: "Chương Trình Thí Điểm Tạo Nội Dung 7 Ngày"
+subtitle: "Đối Tác Nội Dung Huấn Luyện Viên Cá Nhân"
 outputs: ["Reveal"]
 reveal_hugo:
   theme: "black"
@@ -39,9 +39,9 @@ reveal_hugo:
 
 <div style="background: rgba(0,0,0,0.7); padding: 40px; border-radius: 15px; margin: 20px;">
 
-# 7-Day Content Creation Pilot
+# Chương Trình Thí Điểm Tạo Nội Dung 7 Ngày
 
-## Personal Trainer Content Partnership
+## Đối Tác Nội Dung Huấn Luyện Viên Cá Nhân
 
 </div>
 
@@ -51,13 +51,13 @@ reveal_hugo:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## Purpose
+## Mục Đích
 
-**This is a pilot to assess our ability to produce client-approved content for your personal training business.**
+**Đây là chương trình thí điểm để đánh giá khả năng tạo ra nội dung được khách hàng phê duyệt cho doanh nghiệp huấn luyện cá nhân của bạn.**
 
-In 7 days, we'll create 7 pieces of content through daily collaboration and feedback.
+Trong 7 ngày, chúng tôi sẽ tạo ra 7 nội dung thông qua hợp tác và phản hồi hằng ngày.
 
-This pilot demonstrates our capability to understand your brand and deliver content that meets your standards.
+Chương trình thí điểm này chứng minh khả năng hiểu thương hiệu của bạn và cung cấp nội dung đáp ứng tiêu chuẩn của bạn.
 
 </div>
 
@@ -67,28 +67,28 @@ This pilot demonstrates our capability to understand your brand and deliver cont
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## What We'll Create
+## Những Gì Chúng Tôi Sẽ Tạo Ra
 
-Using professional content creation tools and templates, we'll produce:
+Sử dụng các công cụ và mẫu tạo nội dung chuyên nghiệp, chúng tôi sẽ sản xuất:
 
 {{% fragment %}}
-- **Video content** using fitness-focused templates
+- **Nội dung video** sử dụng các mẫu tập trung vào thể dục
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Social media posts** with consistent branding
+- **Bài đăng mạng xã hội** với thương hiệu nhất quán
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Motivational content** pieces
+- **Nội dung động viên** 
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Professional visual** assets
+- **Tài sản hình ảnh chuyên nghiệp**
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Template-based content** that can be scaled
+- **Nội dung dựa trên mẫu** có thể mở rộng quy mô
 {{% /fragment %}}
 
 </div>
@@ -99,7 +99,7 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## The Process
+## Quy Trình
 
 </div>
 
@@ -109,18 +109,18 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-### Day 0 - Setup
+### Ngày 0 - Thiết Lập
 
 {{% fragment %}}
-- **30-minute discovery call** about your brand, audience, and goals
+- **Cuộc gọi khám phá 30 phút** về thương hiệu, đối tượng và mục tiêu của bạn
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Collect your existing materials** (logos, photos, brand guidelines)
+- **Thu thập tài liệu hiện có** (logo, hình ảnh, hướng dẫn thương hiệu)
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Schedule daily 15-minute feedback sessions**
+- **Lên lịch phiên phản hồi hằng ngày 15 phút**
 {{% /fragment %}}
 
 </div>
@@ -131,18 +131,18 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-### Days 1-7 - Create & Iterate
+### Ngày 1-7 - Tạo & Cải Tiến
 
 {{% fragment %}}
-- **Day 1**: Create initial content based on your input
+- **Ngày 1**: Tạo nội dung ban đầu dựa trên đầu vào của bạn
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Days 2-6**: Daily refinement based on your feedback
+- **Ngày 2-6**: Cải tiến hằng ngày dựa trên phản hồi của bạn
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Day 7**: Final content delivery and approval
+- **Ngày 7**: Giao nội dung cuối cùng và phê duyệt
 {{% /fragment %}}
 
 </div>
@@ -153,18 +153,18 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-### Daily Feedback
+### Phản Hồi Hằng Ngày
 
 {{% fragment %}}
-- **15-minute daily check-ins** at your preferred time
+- **Cuộc gọi kiểm tra hằng ngày 15 phút** vào thời gian bạn ưa thích
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Quick feedback form** for specific input
+- **Biểu mẫu phản hồi nhanh** cho đầu vào cụ thể
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Same-day adjustments** to ensure content aligns with your vision
+- **Điều chỉnh trong ngày** để đảm bảo nội dung phù hợp với tầm nhìn của bạn
 {{% /fragment %}}
 
 </div>
@@ -175,18 +175,18 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## Success Metrics
+## Thước Đo Thành Công
 
 {{% fragment %}}
-- **Content that authentically represents** your training style
+- **Nội dung thể hiện chân thực** phong cách huấn luyện của bạn
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Professional-quality materials** that meet your standards
+- **Tài liệu chất lượng chuyên nghiệp** đáp ứng tiêu chuẩn của bạn
 {{% /fragment %}}
 
 {{% fragment %}}
-- **Materials you're excited to share** with your clients
+- **Tài liệu bạn hào hứng chia sẻ** với khách hàng của mình
 {{% /fragment %}}
 
 </div>
@@ -197,10 +197,10 @@ Using professional content creation tools and templates, we'll produce:
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## Next Steps
+## Các Bước Tiếp Theo
 
 {{% fragment %}}
-Upon pilot approval, we'll present a **30-day paid content service plan** for ongoing support.
+Sau khi thí điểm được phê duyệt, chúng tôi sẽ trình bày **kế hoạch dịch vụ nội dung có trả phí 30 ngày** cho hỗ trợ liên tục.
 {{% /fragment %}}
 
 </div>
@@ -211,9 +211,9 @@ Upon pilot approval, we'll present a **30-day paid content service plan** for on
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-## Goal
+## Mục Tiêu
 
-**Prove we can consistently create content that meets your standards and helps grow your personal training business.**
+**Chứng minh chúng tôi có thể tạo ra nội dung nhất quán đáp ứng tiêu chuẩn của bạn và giúp phát triển doanh nghiệp huấn luyện cá nhân của bạn.**
 
 </div>
 
@@ -223,10 +223,10 @@ Upon pilot approval, we'll present a **30-day paid content service plan** for on
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-# Thank You
+# Cảm Ơn
 
-### Ready to Transform Your Content?
+### Sẵn Sàng Biến Đổi Nội Dung Của Bạn?
 
-Let's start your 7-day journey today.
+Hãy bắt đầu hành trình 7 ngày của bạn ngay hôm nay.
 
 </div> 

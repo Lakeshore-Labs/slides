@@ -6,82 +6,24 @@ theme = "night"
 margin = 0.2
 transition = "slide"
 highlight_theme = "github"
-[reveal_hugo.templates.hero]
-background = "#2C3E50"
-background_video = "https://videos.pexels.com/video-files/4795016/4795016-hd_1920_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "zoom"
-[reveal_hugo.templates.recommendations]
-background = "#3498DB"
-background_video = "https://videos.pexels.com/video-files/6769791/6769791-hd_1920_1080_24fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.reviews]
-background = "#16A085"
-background_video = "https://videos.pexels.com/video-files/4820348/4820348-hd_2048_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.loyalty]
-background = "#9B59B6"
-background_video = "https://videos.pexels.com/video-files/4828608/4828608-hd_2048_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.gamification]
-background = "#E74C3C"
-background_video = "https://videos.pexels.com/video-files/4828604/4828604-hd_2048_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.rewards]
-background = "#34495E"
-background_video = "https://videos.pexels.com/video-files/4828606/4828606-hd_2048_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.coffee_art]
-background = "#8E44AD"
-background_image = "https://images.pexels.com/photos/533393/pexels-photo-533393.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920"
-background_size = "cover"
-background_position = "center"
-transition = "slide"
-[reveal_hugo.templates.coffee_beans]
-background = "#27AE60"
-background_video = "https://videos.pexels.com/video-files/4820346/4820346-hd_2048_1080_25fps.mp4"
-background_video_loop = true
-background_video_muted = true
-background_size = "cover"
-background_position = "center"
-transition = "slide"
 +++
 
-{{< slide template="hero" >}}
+{{% slide background-video="https://videos.pexels.com/video-files/4795016/4795016-hd_1920_1080_25fps.mp4" %}}
+
+<div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
 # <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI-Powered Coffee App</span>
 ## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Features for Coffee Lovers</span>
 
+</div>
+
 ---
 
-{{< slide template="recommendations" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Learns Your Taste</span>
+{{% slide background-video="https://videos.pexels.com/video-files/6769791/6769791-hd_1920_1080_24fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Learns Your Taste</span>
 
 **<span style="color: #FFD700 !important;">🤖 AI Tracks Your Preferences</span>**
 
@@ -94,11 +36,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="coffee_art" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart AI Suggestions</span>
+{{% slide background-image="https://images.pexels.com/photos/533393/pexels-photo-533393.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart AI Suggestions</span>
 
 **<span style="color: #FFD700 !important;">☕ Intelligent Recommendations</span>**
 
@@ -111,11 +53,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="reviews" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Understands Feedback</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4820348/4820348-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Understands Feedback</span>
 
 **<span style="color: #FFD700 !important;">🧠 Smart Review Analysis</span>**
 
@@ -128,11 +70,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="coffee_beans" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Response System</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4820346/4820346-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Response System</span>
 
 **<span style="color: #FFD700 !important;">⚡ AI-Powered Actions</span>**
 
@@ -145,11 +87,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="loyalty" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Personalizes Your Journey</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828608/4828608-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Personalizes Your Journey</span>
 
 **<span style="color: #FFD700 !important;">🎯 Smart Loyalty Tracking</span>**
 
@@ -162,11 +104,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="loyalty" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Loyalty Tiers</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828608/4828608-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Loyalty Tiers</span>
 
 **<span style="color: #FFD700 !important;">💎 AI-Driven Upgrades</span>**
 
@@ -179,11 +121,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="gamification" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Gaming Challenges</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828604/4828604-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Gaming Challenges</span>
 
 **<span style="color: #FFD700 !important;">🎮 AI-Personalized Goals</span>**
 
@@ -196,11 +138,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="gamification" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Dynamic AI Achievements</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828604/4828604-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Dynamic AI Achievements</span>
 
 **<span style="color: #FFD700 !important;">🏆 Adaptive Rewards</span>**
 
@@ -213,11 +155,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="rewards" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI-Optimized Rewards</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828606/4828606-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI-Optimized Rewards</span>
 
 **<span style="color: #FFD700 !important;">🎁 Perfect Timing</span>**
 
@@ -230,11 +172,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="rewards" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Earning System</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4828606/4828606-hd_2048_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Earning System</span>
 
 **<span style="color: #FFD700 !important;">📈 Intelligent Points</span>**
 
@@ -247,11 +189,11 @@ transition = "slide"
 
 ---
 
-{{< slide template="hero" >}}
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Makes Coffee Better</span>
+{{% slide background-video="https://videos.pexels.com/video-files/4795016/4795016-hd_1920_1080_25fps.mp4" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Makes Coffee Better</span>
 
 **<span style="color: #FFD700 !important;">🧠 The AI learns from:</span>**
 - **<span style="color: #FFFFFF !important;">Every order</span>** <span style="color: #FFFFFF !important;">you make</span>

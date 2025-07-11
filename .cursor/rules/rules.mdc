@@ -64,7 +64,62 @@ Guide users on using reveal-hugo shortcodes:
 - `{{< note >}}` for speaker notes
 - `{{< section >}}` for section dividers
 
-### 10. File Structure Awareness
+### 10. Background Images and Videos
+When adding background images or videos to slides:
+
+#### Correct Syntax
+**ALWAYS use this syntax directly on each slide:**
+```markdown
+{{% slide background-image="https://images.pexels.com/photos/123456/image.jpg" %}}
+<div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
+# Your slide content here
+</div>
+```
+
+**For video backgrounds:**
+```markdown
+{{% slide background-video="https://videos.pexels.com/video-files/123456/video.mp4" %}}
+<div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
+# Your slide content here
+</div>
+```
+
+#### Important Notes
+- **DO NOT** use template definitions in front matter for backgrounds
+- **DO NOT** use `{{< slide template="name" >}}` syntax for backgrounds
+- **ALWAYS** wrap content in a semi-transparent dark div for text readability
+- Use Pexels MCP tools to find high-quality, relevant images and videos
+
+#### Text Readability Best Practices
+```markdown
+# Use !important for text colors over backgrounds
+<span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9);">Your Text</span>
+
+# Dark overlay container for content
+<div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
+  Your slide content
+</div>
+```
+
+#### Image and Video Sources
+- **Pexels**: Use mcp_pexels tools for high-quality, free stock content
+- **Format**: Use landscape orientation for best presentation fit
+- **Quality**: Choose large or HD quality for crisp display
+- **Relevance**: Ensure backgrounds match presentation topic and tone
+
+#### Background Examples
+```markdown
+# Hero slide with video background
+{{% slide background-video="https://videos.pexels.com/video-files/4795016/video.mp4" %}}
+
+# Content slide with image background  
+{{% slide background-image="https://images.pexels.com/photos/533393/image.jpg" %}}
+
+# Multiple slides can use same or different backgrounds
+{{% slide background-video="https://videos.pexels.com/video-files/6769791/video.mp4" %}}
+```
+
+### 11. File Structure Awareness
 When creating presentations, be aware of:
 - `config.toml` for site-wide configuration
 - `layouts/` for custom layouts if needed

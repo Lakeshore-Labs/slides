@@ -35,7 +35,7 @@ reveal_hugo:
   parallax_background_vertical: null
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6456299/pexels-photo-6456299.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/7031705/pexels-photo-7031705.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.7); padding: 40px; border-radius: 15px; margin: 20px;">
 
@@ -63,7 +63,7 @@ This pilot demonstrates our capability to understand your brand and deliver cont
 
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6111625/pexels-photo-6111625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/3839058/pexels-photo-3839058.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
@@ -95,7 +95,7 @@ Using professional content creation tools and templates, we'll produce:
 
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6456298/pexels-photo-6456298.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/6550874/pexels-photo-6550874.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
@@ -105,7 +105,7 @@ Using professional content creation tools and templates, we'll produce:
 
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6551111/pexels-photo-6551111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/6455946/pexels-photo-6455946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
@@ -149,7 +149,7 @@ Using professional content creation tools and templates, we'll produce:
 
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6456237/pexels-photo-6456237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/6740822/pexels-photo-6740822.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
@@ -193,7 +193,7 @@ Using professional content creation tools and templates, we'll produce:
 
 ---
 
-{{% slide background-image="https://images.pexels.com/photos/6551187/pexels-photo-6551187.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
+{{% slide background-image="https://images.pexels.com/photos/3838289/pexels-photo-3838289.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 

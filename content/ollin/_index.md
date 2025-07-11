@@ -8,12 +8,12 @@ transition = "slide"
 highlight_theme = "github"
 +++
 
-{{% slide background-video="https://videos.pexels.com/video-files/4795016/4795016-hd_1920_1080_25fps.mp4" %}}
+{{% slide background-image="https://images.pexels.com/photos/30622043/pexels-photo-30622043.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920" %}}
 
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
-# <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI-Powered Coffee App</span>
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Features for Coffee Lovers</span>
+# <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold; font-size: 0.8em;">AI-Powered Coffee App</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold; font-size: 0.6em;">Smart Features for Coffee Lovers</span>
 
 </div>
 
@@ -189,18 +189,31 @@ highlight_theme = "github"
 
 ---
 
-{{% slide background-video="https://videos.pexels.com/video-files/4795016/4795016-hd_1920_1080_25fps.mp4" %}}
+{{% slide background-image="https://images.pexels.com/photos/7506958/pexels-photo-7506958.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920" %}}
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Makes Coffee Better</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">What AI Learns</span>
 
 **<span style="color: #FFD700 !important;">🧠 The AI learns from:</span>**
+
 - **<span style="color: #FFFFFF !important;">Every order</span>** <span style="color: #FFFFFF !important;">you make</span>
 - **<span style="color: #FFFFFF !important;">Time and weather</span>** <span style="color: #FFFFFF !important;">patterns</span>
 - **<span style="color: #FFFFFF !important;">Your review feedback</span>**
+- **<span style="color: #FFFFFF !important;">Your preferences</span>** <span style="color: #FFFFFF !important;">and habits</span>
 
-**<span style="color: #FFD700 !important;">☕ Result: A coffee app that:</span>**
+</div>
+
+---
+
+{{% slide background-image="https://images.pexels.com/photos/459493/pexels-photo-459493.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920" %}}
+
+<div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">The Result</span>
+
+**<span style="color: #FFD700 !important;">☕ A coffee app that:</span>**
+
 - **<span style="color: #FFFFFF !important;">Knows you</span>** <span style="color: #FFFFFF !important;">better than you know yourself</span>
 - **<span style="color: #FFFFFF !important;">Predicts your needs</span>** <span style="color: #FFFFFF !important;">before you ask</span>
 - **<span style="color: #FFFFFF !important;">Improves</span>** <span style="color: #FFFFFF !important;">with every interaction</span>

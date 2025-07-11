@@ -1,5 +1,5 @@
 +++
-title = "AI-Powered Coffee App Features"
+title = "AI-Powered Coffee App for Amazing Customer Experiences"
 outputs = ["Reveal"]
 [reveal_hugo]
 theme = "night"
@@ -13,7 +13,7 @@ highlight_theme = "github"
 <div style="background: rgba(0,0,0,0.8); padding: 40px; border-radius: 15px; margin: 20px;">
 
 # <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold; font-size: 0.8em;">AI-Powered Coffee App</span>
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold; font-size: 0.6em;">Smart Features for Coffee Lovers</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold; font-size: 0.6em;">Create Unforgettable Customer Experiences</span>
 
 </div>
 
@@ -23,14 +23,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">How AI Learns Your Taste</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Know Each Customer Personally</span>
 
-**<span style="color: #FFD700 !important;">🤖 AI Tracks Your Preferences</span>**
+**<span style="color: #FFD700 !important;">🤖 AI Remembers Every Customer</span>**
 
-- **<span style="color: #FFFFFF !important;">Remembers your orders</span>** - <span style="color: #FFFFFF !important;">AI tracks what you love</span>
-- **<span style="color: #FFFFFF !important;">Weather awareness</span>** - <span style="color: #FFFFFF !important;">Suggests hot drinks on cold days</span>
-- **<span style="color: #FFFFFF !important;">Time patterns</span>** - <span style="color: #FFFFFF !important;">Morning coffee vs afternoon treats</span>
-- **<span style="color: #FFFFFF !important;">Mood detection</span>** - <span style="color: #FFFFFF !important;">Analyzes your ordering patterns</span>
+- **<span style="color: #FFFFFF !important;">Remembers their favorite orders</span>** - <span style="color: #FFFFFF !important;">Like a barista who never forgets</span>
+- **<span style="color: #FFFFFF !important;">Understands their mood</span>** - <span style="color: #FFFFFF !important;">Knows when they need comfort or energy</span>
+- **<span style="color: #FFFFFF !important;">Learns their schedule</span>** - <span style="color: #FFFFFF !important;">Anticipates their daily coffee ritual</span>
+- **<span style="color: #FFFFFF !important;">Recognizes their patterns</span>** - <span style="color: #FFFFFF !important;">Rainy day preferences, special occasions</span>
 
 </div>
 
@@ -40,14 +40,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart AI Suggestions</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Surprise and Delight Customers</span>
 
-**<span style="color: #FFD700 !important;">☕ Intelligent Recommendations</span>**
+**<span style="color: #FFD700 !important;">☕ Thoughtful Recommendations</span>**
 
-- **<span style="color: #FFFFFF !important;">"Your Usual"</span>** - <span style="color: #FFFFFF !important;">One-tap for regular orders</span>
-- **<span style="color: #FFFFFF !important;">"Try Something New"</span>** - <span style="color: #FFFFFF !important;">AI finds drinks you'll love</span>
-- **<span style="color: #FFFFFF !important;">"Perfect for Today"</span>** - <span style="color: #FFFFFF !important;">Weather and time-based picks</span>
-- **<span style="color: #FFFFFF !important;">"Complete Your Order"</span>** - <span style="color: #FFFFFF !important;">Smart add-on suggestions</span>
+- **<span style="color: #FFFFFF !important;">One-tap "Your Usual"</span>** - <span style="color: #FFFFFF !important;">Make them feel like regulars from day one</span>
+- **<span style="color: #FFFFFF !important;">Perfect new discoveries</span>** - <span style="color: #FFFFFF !important;">Introduce them to drinks they'll love</span>
+- **<span style="color: #FFFFFF !important;">Weather-perfect suggestions</span>** - <span style="color: #FFFFFF !important;">Hot cocoa on snowy days, iced drinks in summer</span>
+- **<span style="color: #FFFFFF !important;">Complete their experience</span>** - <span style="color: #FFFFFF !important;">Suggest the perfect pastry pairing</span>
 
 </div>
 
@@ -57,14 +57,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Understands Feedback</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Listen to Every Customer Voice</span>
 
-**<span style="color: #FFD700 !important;">🧠 Smart Review Analysis</span>**
+**<span style="color: #FFD700 !important;">🧠 Understanding Customer Feedback</span>**
 
-- **<span style="color: #FFFFFF !important;">Sentiment analysis</span>** - <span style="color: #FFFFFF !important;">Automatically detects happy/unhappy customers</span>
-- **<span style="color: #FFFFFF !important;">Topic extraction</span>** - <span style="color: #FFFFFF !important;">Identifies issues (service, quality, wait time)</span>
-- **<span style="color: #FFFFFF !important;">Language support</span>** - <span style="color: #FFFFFF !important;">Understands Vietnamese and English reviews</span>
-- **<span style="color: #FFFFFF !important;">Trend spotting</span>** - <span style="color: #FFFFFF !important;">Notices recurring problems early</span>
+- **<span style="color: #FFFFFF !important;">Detect happiness levels</span>** - <span style="color: #FFFFFF !important;">Know when customers are truly satisfied</span>
+- **<span style="color: #FFFFFF !important;">Understand concerns</span>** - <span style="color: #FFFFFF !important;">Spot issues that matter most to them</span>
+- **<span style="color: #FFFFFF !important;">Support all languages</span>** - <span style="color: #FFFFFF !important;">Every customer feels heard and understood</span>
+- **<span style="color: #FFFFFF !important;">Spot patterns early</span>** - <span style="color: #FFFFFF !important;">Address concerns before they grow</span>
 
 </div>
 
@@ -74,31 +74,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Response System</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Respond with Perfect Care</span>
 
-**<span style="color: #FFD700 !important;">⚡ AI-Powered Actions</span>**
+**<span style="color: #FFD700 !important;">⚡ Thoughtful Customer Service</span>**
 
-- **<span style="color: #FFFFFF !important;">Auto-generated replies</span>** - <span style="color: #FFFFFF !important;">AI suggests personalized responses</span>
-- **<span style="color: #FFFFFF !important;">Priority alerts</span>** - <span style="color: #FFFFFF !important;">Urgent issues get immediate attention</span>
-- **<span style="color: #FFFFFF !important;">Follow-up reminders</span>** - <span style="color: #FFFFFF !important;">Ensures problems get solved</span>
-- **<span style="color: #FFFFFF !important;">Review insights</span>** - <span style="color: #FFFFFF !important;">Shows what customers really care about</span>
-
-</div>
-
----
-
-{{% slide background-video="https://videos.pexels.com/video-files/4828608/4828608-hd_2048_1080_25fps.mp4" %}}
-
-<div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI Personalizes Your Journey</span>
-
-**<span style="color: #FFD700 !important;">🎯 Smart Loyalty Tracking</span>**
-
-- **<span style="color: #FFFFFF !important;">Individual tracking</span>** - <span style="color: #FFFFFF !important;">AI learns your coffee habits</span>
-- **<span style="color: #FFFFFF !important;">Smart milestones</span>** - <span style="color: #FFFFFF !important;">Custom goals based on your behavior</span>
-- **<span style="color: #FFFFFF !important;">Predictive offers</span>** - <span style="color: #FFFFFF !important;">AI knows when you need motivation</span>
-- **<span style="color: #FFFFFF !important;">Churn prevention</span>** - <span style="color: #FFFFFF !important;">Detects when you might leave and acts</span>
+- **<span style="color: #FFFFFF !important;">Personalized response suggestions</span>** - <span style="color: #FFFFFF !important;">Reply with genuine care and understanding</span>
+- **<span style="color: #FFFFFF !important;">Immediate attention alerts</span>** - <span style="color: #FFFFFF !important;">Urgent concerns get instant care</span>
+- **<span style="color: #FFFFFF !important;">Never forget to follow up</span>** - <span style="color: #FFFFFF !important;">Show customers their experience matters</span>
+- **<span style="color: #FFFFFF !important;">Learn what matters most</span>** - <span style="color: #FFFFFF !important;">Focus on what creates happy customers</span>
 
 </div>
 
@@ -108,14 +91,31 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Intelligent Loyalty Tiers</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Build Lasting Relationships</span>
 
-**<span style="color: #FFD700 !important;">💎 AI-Driven Upgrades</span>**
+**<span style="color: #FFD700 !important;">🎯 Deep Customer Connection</span>**
 
-- **<span style="color: #FFFFFF !important;">Bronze Explorer</span>** - <span style="color: #FFFFFF !important;">For trying new drinks</span>
-- **<span style="color: #FFFFFF !important;">Silver Regular</span>** - <span style="color: #FFFFFF !important;">For consistent visits</span>
-- **<span style="color: #FFFFFF !important;">Gold Enthusiast</span>** - <span style="color: #FFFFFF !important;">For coffee connoisseurs</span>
-- **<span style="color: #FFFFFF !important;">AI upgrades you</span>** - <span style="color: #FFFFFF !important;">automatically based on behavior</span>
+- **<span style="color: #FFFFFF !important;">Track each unique journey</span>** - <span style="color: #FFFFFF !important;">Every customer gets individual attention</span>
+- **<span style="color: #FFFFFF !important;">Create personal milestones</span>** - <span style="color: #FFFFFF !important;">Celebrate their coffee journey with them</span>
+- **<span style="color: #FFFFFF !important;">Perfect timing for surprises</span>** - <span style="color: #FFFFFF !important;">Special treats when they need them most</span>
+- **<span style="color: #FFFFFF !important;">Gentle re-engagement</span>** - <span style="color: #FFFFFF !important;">Welcome back customers who haven't visited</span>
+
+</div>
+
+---
+
+{{% slide background-video="https://videos.pexels.com/video-files/4828608/4828608-hd_2048_1080_25fps.mp4" %}}
+
+<div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Celebrate Customer Loyalty</span>
+
+**<span style="color: #FFD700 !important;">💎 Recognition That Feels Personal</span>**
+
+- **<span style="color: #FFFFFF !important;">Bronze Explorer</span>** - <span style="color: #FFFFFF !important;">Celebrate their adventurous spirit</span>
+- **<span style="color: #FFFFFF !important;">Silver Regular</span>** - <span style="color: #FFFFFF !important;">Appreciate their daily loyalty</span>
+- **<span style="color: #FFFFFF !important;">Gold Enthusiast</span>** - <span style="color: #FFFFFF !important;">Honor their coffee passion</span>
+- **<span style="color: #FFFFFF !important;">Automatic recognition</span>** - <span style="color: #FFFFFF !important;">Customers feel valued without asking</span>
 
 </div>
 
@@ -125,14 +125,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Gaming Challenges</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Make Every Visit Fun</span>
 
-**<span style="color: #FFD700 !important;">🎮 AI-Personalized Goals</span>**
+**<span style="color: #FFD700 !important;">🎮 Engaging Personal Challenges</span>**
 
-- **<span style="color: #FFFFFF !important;">Personalized goals</span>** - <span style="color: #FFFFFF !important;">AI creates challenges just for you</span>
-- **<span style="color: #FFFFFF !important;">Progress tracking</span>** - <span style="color: #FFFFFF !important;">Visual progress bars and achievements</span>
-- **<span style="color: #FFFFFF !important;">Social competitions</span>** - <span style="color: #FFFFFF !important;">Compare with friends automatically</span>
-- **<span style="color: #FFFFFF !important;">Difficulty adjustment</span>** - <span style="color: #FFFFFF !important;">AI makes challenges achievable but exciting</span>
+- **<span style="color: #FFFFFF !important;">Tailored goals for each customer</span>** - <span style="color: #FFFFFF !important;">Challenges that match their interests</span>
+- **<span style="color: #FFFFFF !important;">Celebrate their progress</span>** - <span style="color: #FFFFFF !important;">Visual achievements they're proud of</span>
+- **<span style="color: #FFFFFF !important;">Connect with friends</span>** - <span style="color: #FFFFFF !important;">Share coffee adventures together</span>
+- **<span style="color: #FFFFFF !important;">Always achievable</span>** - <span style="color: #FFFFFF !important;">Challenges that feel exciting, not overwhelming</span>
 
 </div>
 
@@ -142,31 +142,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Dynamic AI Achievements</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Create Memorable Moments</span>
 
-**<span style="color: #FFD700 !important;">🏆 Adaptive Rewards</span>**
+**<span style="color: #FFD700 !important;">🏆 Meaningful Achievements</span>**
 
-- **<span style="color: #FFFFFF !important;">Coffee Explorer</span>** - <span style="color: #FFFFFF !important;">Try 5 new drinks this month</span>
-- **<span style="color: #FFFFFF !important;">Early Bird</span>** - <span style="color: #FFFFFF !important;">Order before 8 AM for a week</span>
-- **<span style="color: #FFFFFF !important;">Weather Warrior</span>** - <span style="color: #FFFFFF !important;">Order hot drinks on cold days</span>
-- **<span style="color: #FFFFFF !important;">AI adapts challenges</span>** - <span style="color: #FFFFFF !important;">to keep you engaged</span>
-
-</div>
-
----
-
-{{% slide background-video="https://videos.pexels.com/video-files/4828606/4828606-hd_2048_1080_25fps.mp4" %}}
-
-<div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
-
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">AI-Optimized Rewards</span>
-
-**<span style="color: #FFD700 !important;">🎁 Perfect Timing</span>**
-
-- **<span style="color: #FFFFFF !important;">Perfect timing</span>** - <span style="color: #FFFFFF !important;">AI knows when to surprise you</span>
-- **<span style="color: #FFFFFF !important;">Personalized gifts</span>** - <span style="color: #FFFFFF !important;">Rewards match your preferences</span>
-- **<span style="color: #FFFFFF !important;">Value optimization</span>** - <span style="color: #FFFFFF !important;">AI maximizes your savings</span>
-- **<span style="color: #FFFFFF !important;">Surprise bonuses</span>** - <span style="color: #FFFFFF !important;">Unexpected rewards when you need them most</span>
+- **<span style="color: #FFFFFF !important;">Coffee Explorer badge</span>** - <span style="color: #FFFFFF !important;">Encourage trying new favorites</span>
+- **<span style="color: #FFFFFF !important;">Early Bird recognition</span>** - <span style="color: #FFFFFF !important;">Celebrate their morning dedication</span>
+- **<span style="color: #FFFFFF !important;">Weather Warrior award</span>** - <span style="color: #FFFFFF !important;">Appreciate their loyalty in any weather</span>
+- **<span style="color: #FFFFFF !important;">Personal milestone celebrations</span>** - <span style="color: #FFFFFF !important;">Each customer's unique journey</span>
 
 </div>
 
@@ -176,14 +159,31 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Smart Earning System</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Give Perfect Surprises</span>
 
-**<span style="color: #FFD700 !important;">📈 Intelligent Points</span>**
+**<span style="color: #FFD700 !important;">🎁 Thoughtful Rewards</span>**
 
-- **<span style="color: #FFFFFF !important;">Bonus multipliers</span>** - <span style="color: #FFFFFF !important;">AI doubles points on special occasions</span>
-- **<span style="color: #FFFFFF !important;">Streak rewards</span>** - <span style="color: #FFFFFF !important;">Extra points for consistent visits</span>
-- **<span style="color: #FFFFFF !important;">Friend referrals</span>** - <span style="color: #FFFFFF !important;">AI tracks and rewards social sharing</span>
-- **<span style="color: #FFFFFF !important;">Seasonal bonuses</span>** - <span style="color: #FFFFFF !important;">Holiday and special event multipliers</span>
+- **<span style="color: #FFFFFF !important;">Perfect moment timing</span>** - <span style="color: #FFFFFF !important;">Surprises when they mean the most</span>
+- **<span style="color: #FFFFFF !important;">Match their preferences</span>** - <span style="color: #FFFFFF !important;">Rewards they actually want and love</span>
+- **<span style="color: #FFFFFF !important;">Make them feel special</span>** - <span style="color: #FFFFFF !important;">Unexpected treats that create smiles</span>
+- **<span style="color: #FFFFFF !important;">Brighten their difficult days</span>** - <span style="color: #FFFFFF !important;">Little acts of kindness when needed</span>
+
+</div>
+
+---
+
+{{% slide background-video="https://videos.pexels.com/video-files/4828606/4828606-hd_2048_1080_25fps.mp4" %}}
+
+<div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
+
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Celebrate Every Connection</span>
+
+**<span style="color: #FFD700 !important;">📈 Meaningful Rewards</span>**
+
+- **<span style="color: #FFFFFF !important;">Special occasion bonuses</span>** - <span style="color: #FFFFFF !important;">Extra appreciation on meaningful days</span>
+- **<span style="color: #FFFFFF !important;">Consistency rewards</span>** - <span style="color: #FFFFFF !important;">Acknowledge their daily ritual</span>
+- **<span style="color: #FFFFFF !important;">Community building</span>** - <span style="color: #FFFFFF !important;">Rewards for bringing friends together</span>
+- **<span style="color: #FFFFFF !important;">Seasonal celebrations</span>** - <span style="color: #FFFFFF !important;">Share in holidays and special moments</span>
 
 </div>
 
@@ -193,14 +193,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">What AI Learns</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">Understanding Your Customers</span>
 
-**<span style="color: #FFD700 !important;">🧠 The AI learns from:</span>**
+**<span style="color: #FFD700 !important;">🧠 AI learns from every interaction:</span>**
 
-- **<span style="color: #FFFFFF !important;">Every order</span>** <span style="color: #FFFFFF !important;">you make</span>
-- **<span style="color: #FFFFFF !important;">Time and weather</span>** <span style="color: #FFFFFF !important;">patterns</span>
-- **<span style="color: #FFFFFF !important;">Your review feedback</span>**
-- **<span style="color: #FFFFFF !important;">Your preferences</span>** <span style="color: #FFFFFF !important;">and habits</span>
+- **<span style="color: #FFFFFF !important;">Every order and preference</span>** <span style="color: #FFFFFF !important;">they share</span>
+- **<span style="color: #FFFFFF !important;">Their daily rhythms</span>** <span style="color: #FFFFFF !important;">and special moments</span>
+- **<span style="color: #FFFFFF !important;">Feedback and emotions</span>** <span style="color: #FFFFFF !important;">they express</span>
+- **<span style="color: #FFFFFF !important;">What makes them</span>** <span style="color: #FFFFFF !important;">genuinely happy</span>
 
 </div>
 
@@ -210,14 +210,14 @@ highlight_theme = "github"
 
 <div style="background: rgba(0,0,0,0.85); padding: 25px; border-radius: 15px; border: 2px solid rgba(255,255,255,0.2);">
 
-## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">The Result</span>
+## <span style="color: #FFFFFF !important; text-shadow: 3px 3px 6px rgba(0,0,0,0.9); font-weight: bold;">The Customer Experience</span>
 
-**<span style="color: #FFD700 !important;">☕ A coffee app that:</span>**
+**<span style="color: #FFD700 !important;">☕ Create a cafe where customers feel:</span>**
 
-- **<span style="color: #FFFFFF !important;">Knows you</span>** <span style="color: #FFFFFF !important;">better than you know yourself</span>
-- **<span style="color: #FFFFFF !important;">Predicts your needs</span>** <span style="color: #FFFFFF !important;">before you ask</span>
-- **<span style="color: #FFFFFF !important;">Improves</span>** <span style="color: #FFFFFF !important;">with every interaction</span>
+- **<span style="color: #FFFFFF !important;">Truly known</span>** <span style="color: #FFFFFF !important;">and appreciated as individuals</span>
+- **<span style="color: #FFFFFF !important;">Genuinely cared for</span>** <span style="color: #FFFFFF !important;">in every interaction</span>
+- **<span style="color: #FFFFFF !important;">Excited to return</span>** <span style="color: #FFFFFF !important;">for the next experience</span>
 
-**<span style="color: #FFD700 !important; font-size: 1.2em;">Your coffee experience gets smarter every day</span>**
+**<span style="color: #FFD700 !important; font-size: 1.2em;">Every customer becomes part of your coffee family</span>**
 
 </div>

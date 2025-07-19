@@ -2,7 +2,8 @@ baseURL = "https://example.com/"
 defaultContentLanguage = "en"
 title = "Company Presentations"
 disableKinds = ["sitemap", "RSS"]
-theme = "reveal-hugo"
+theme = ["github.com/joshed-io/reveal-hugo"]
+# theme = "reveal-hugo"
 # theme = "."
 # themesDir = "../"
 

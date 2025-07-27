@@ -46,9 +46,11 @@ center = true
 ### 💡 Features to Experiment With
 
 - **Auto-generate suggested orders**
-- **Dead stock alerts**
+- **Dead stock alerts**  
 - **Expiration date tracking**
 - **Supplier performance scoring**
+
+👉 *Example: "Order 3 cases Red Bull - Friday game"*
 
 ---
 
@@ -68,6 +70,8 @@ center = true
 - *"Which products have lowest margins?"*
 - *"Compare this week to last week"*
 - *"Find all no-sales over $50"*
+
+👉 *Real query: "Show all voids by Sarah on Tuesday"*
 
 ---
 
@@ -99,6 +103,8 @@ center = true
 - **Time-based demand** 💵
 - **Weather-based pricing** 📈
 
+👉 *Example: "Shell at $3.49 → auto-match to $3.51"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)" %}}
@@ -109,6 +115,8 @@ center = true
 - **Slow-mover discounts**
 - **Happy hour pricing**
 - **Weather-triggered promos**
+
+👉 *Example: "Rain detected → Coffee BOGO activated"*
 
 ---
 
@@ -129,6 +137,8 @@ center = true
 - **After-hours transactions** ⏰
 - **Unusual discount patterns** 🏷️
 
+👉 *Alert: "John voided 5 items >$20 today (avg: 1)"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to bottom, #ff6e7f, #bfe9ff)" %}}
@@ -139,6 +149,8 @@ center = true
 - **Shift change anomalies**
 - **Product giveaway detection**
 - **Time theft analysis**
+
+👉 *Alert: "Sarah's drawer -$47 (3rd time this week)"*
 
 ---
 
@@ -159,6 +171,8 @@ center = true
 - **Dead zones in store** 📊
 - **Promotion effectiveness** 💸
 
+👉 *"Beer + chips: 73% combo rate on game days"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to right, #fa709a, #fee140)" %}}
@@ -169,6 +183,8 @@ center = true
 - **Cross-sell suggestions**
 - **Layout A/B testing**
 - **Category performance alerts**
+
+👉 *"Move chips to beer aisle = +$340/week"*
 
 ---
 
@@ -189,6 +205,8 @@ center = true
 - **Maintenance reminders** 🔧
 - **Supply reorder alerts** 📦
 
+👉 *"7am text: Yesterday $4,231 sales, $312 lottery"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to bottom, #a8edea, #fed6e3)" %}}
@@ -199,6 +217,8 @@ center = true
 - **Labor cost predictions**
 - **Break coverage optimization**
 - **Vendor check-in automation**
+
+👉 *"Alert: 3 voids >$50 yesterday (investigate)"*
 
 ---
 
@@ -219,6 +239,8 @@ center = true
 - **Price change notifications** 💰
 - **Stock-out predictions** 📊
 
+👉 *"Draft: Pepsi, we received 2 cases less Mtn Dew"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to right, #4facfe, #00f2fe)" %}}
@@ -229,6 +251,8 @@ center = true
 - **Cost optimization suggestions**
 - **Delivery pattern analysis**
 - **Alternative supplier finder**
+
+👉 *"Coke: 87% on-time vs Pepsi: 94%"*
 
 ---
 
@@ -249,6 +273,8 @@ center = true
 - **Comparative analytics** 📊
 - **Predictive warnings** ⚠️
 
+👉 *"Coffee sales dropped 20% after $2.49 price"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)" %}}
@@ -259,6 +285,8 @@ center = true
 - **End-of-shift summaries**
 - **Weekly trend reports**
 - **Monthly deep dives**
+
+👉 *"6am text: Yesterday $4,231, margin 24.3%"*
 
 ---
 
@@ -279,6 +307,8 @@ center = true
 - **Flag pricing discrepancies** 🚨
 - **Digital filing system** 🗂️
 
+👉 *"Coke invoice: 24 cases @ $18.50, up $0.75"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to right, #667eea, #764ba2)" %}}
@@ -289,6 +319,8 @@ center = true
 - **Tax document processing**
 - **Receipt digitization**
 - **Contract renewal alerts**
+
+👉 *"Alert: Pepsi contract expires in 30 days"*
 
 ---
 
@@ -309,6 +341,8 @@ center = true
 - **Queue length detection** 👥
 - **Spill/hazard alerts** ⚠️
 
+👉 *"Alert: Coffee pot empty 10 min during rush"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(135deg, #f093fb 0%, #f5576c 100%)" %}}
@@ -320,35 +354,41 @@ center = true
 - **Customer interaction quality**
 - **Productivity patterns**
 
----
-
-{{% slide background-image="https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3" background-opacity="0.3" transition="zoom" %}}
-
-## 🎙️ Voice-Powered Operations
-
-### **Hands-Free Store Management**
+👉 *"Sarah at register 87% of shift (target: 70%)"*
 
 ---
 
-{{% slide background-color="#16213e" %}}
+{{% slide background-image="https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3" background-opacity="0.3" transition="zoom" %}}
 
-### 🗣️ Voice Command Ideas
+## 🔐 Security & Theft Prevention
 
-- **"What's my fuel margin today?"** ⛽
-- **"Order 5 cases of Coke"** 📦
-- **"Check beer inventory"** 🍺
-- **"Report cooler 3 down"** 🔧
+### **AI-Powered Loss Protection**
 
 ---
 
-{{% slide background-gradient="linear-gradient(to bottom, #ff6e7f, #bfe9ff)" %}}
+{{% slide background-color="#8b0000" %}}
 
-### 🌐 Multilingual Features
+### 🚨 Theft Detection Patterns
 
-- **Spanish voice commands**
-- **Arabic customer service**
-- **Real-time translation**
-- **Voice training modules**
+- **Sweethearting alerts** 🎁
+- **Suspicious return tracking** 🔄
+- **Employee discount abuse** 🏷️
+- **No-sale drawer monitoring** 💰
+
+👉 *"Mike scanned 1 item but bagged 3 at 2:15pm"*
+
+---
+
+{{% slide background-gradient="linear-gradient(to bottom, #dc143c, #8b0000)" %}}
+
+### 🎯 Advanced Security Features
+
+- **Organized retail crime patterns**
+- **Real-time manager alerts**
+- **Shift-based loss analysis**
+- **Predictive theft indicators**
+
+👉 *"Pattern: $200+ returns when Jessica works alone"*
 
 ---
 
@@ -369,6 +409,8 @@ center = true
 - **Seasonal cash patterns** 📈
 - **Float optimization** 💸
 
+👉 *"Tomorrow needs $1,800 (Friday + lottery day)"*
+
 ---
 
 {{% slide background-gradient="linear-gradient(to right, #4facfe, #00f2fe)" %}}
@@ -379,6 +421,8 @@ center = true
 - **Vendor payment optimization**
 - **Cash conversion tracking**
 - **Liquidity forecasting**
+
+👉 *"Delay Pepsi payment 3 days to optimize cash"*
 
 ---
 

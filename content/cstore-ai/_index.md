@@ -262,6 +262,126 @@ center = true
 
 ---
 
+{{% slide background-image="https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3" background-opacity="0.3" transition="convex" %}}
+
+## 📄 Smart Document Processing
+
+### **Paperwork That Handles Itself**
+
+---
+
+{{% slide background-color="#1a1a2e" %}}
+
+### 🤖 Invoice Intelligence
+
+- **Extract data from any invoice format** 📊
+- **Auto-match deliveries to orders** ✅
+- **Flag pricing discrepancies** 🚨
+- **Digital filing system** 🗂️
+
+---
+
+{{% slide background-gradient="linear-gradient(to right, #667eea, #764ba2)" %}}
+
+### 📋 Automation Possibilities
+
+- **Vendor agreement parsing**
+- **Tax document processing**
+- **Receipt digitization**
+- **Contract renewal alerts**
+
+---
+
+{{% slide background-image="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3" background-opacity="0.3" transition="slide" %}}
+
+## 👁️ Computer Vision Integration
+
+### **AI Eyes on Your Store**
+
+---
+
+{{% slide background-color="#0f3460" %}}
+
+### 📹 Store Monitoring Ideas
+
+- **Real-time shelf stock levels** 📦
+- **Customer traffic heatmaps** 🗺️
+- **Queue length detection** 👥
+- **Spill/hazard alerts** ⚠️
+
+---
+
+{{% slide background-gradient="linear-gradient(135deg, #f093fb 0%, #f5576c 100%)" %}}
+
+### 👤 Employee Analytics
+
+- **Time at register tracking**
+- **Break compliance monitoring**
+- **Customer interaction quality**
+- **Productivity patterns**
+
+---
+
+{{% slide background-image="https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3" background-opacity="0.3" transition="zoom" %}}
+
+## 🎙️ Voice-Powered Operations
+
+### **Hands-Free Store Management**
+
+---
+
+{{% slide background-color="#16213e" %}}
+
+### 🗣️ Voice Command Ideas
+
+- **"What's my fuel margin today?"** ⛽
+- **"Order 5 cases of Coke"** 📦
+- **"Check beer inventory"** 🍺
+- **"Report cooler 3 down"** 🔧
+
+---
+
+{{% slide background-gradient="linear-gradient(to bottom, #ff6e7f, #bfe9ff)" %}}
+
+### 🌐 Multilingual Features
+
+- **Spanish voice commands**
+- **Arabic customer service**
+- **Real-time translation**
+- **Voice training modules**
+
+---
+
+{{% slide background-image="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3" background-opacity="0.3" transition="fade" %}}
+
+## 💰 Cash Flow Intelligence
+
+### **Money Management on Autopilot**
+
+---
+
+{{% slide background-color="#1e3c72" %}}
+
+### 📊 Financial Predictions
+
+- **Daily cash requirements** 💵
+- **Optimal deposit timing** 🏦
+- **Seasonal cash patterns** 📈
+- **Float optimization** 💸
+
+---
+
+{{% slide background-gradient="linear-gradient(to right, #4facfe, #00f2fe)" %}}
+
+### 🎯 Working Capital Tools
+
+- **Inventory investment analysis**
+- **Vendor payment optimization**
+- **Cash conversion tracking**
+- **Liquidity forecasting**
+
+---
+
 {{% slide background-image="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3" background-opacity="0.4" transition="zoom" %}}
 
 ## 🔬 POC Exploration Plan
